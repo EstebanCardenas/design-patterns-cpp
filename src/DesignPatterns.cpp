@@ -6,14 +6,14 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#pragma once
-
 #include <iostream>
-#include "Creational/Builder/BuilderFacets/Facets.hpp"
+#include <string>
+
+#include "Creational/Factory/Point.hpp"
 
 using namespace std;
 
 int main() {
-	facetsMain();
+	pointMain();
 	return 0;
 }
