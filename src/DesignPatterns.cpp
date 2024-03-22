@@ -9,11 +9,11 @@
 #include <iostream>
 #include <string>
 
-#include "Creational/Factory/Point.hpp"
+#include "Creational/AbstractFactory/AfMain.hpp"
 
 using namespace std;
 
 int main() {
-	pointMain();
+	afMain();
 	return 0;
 }
