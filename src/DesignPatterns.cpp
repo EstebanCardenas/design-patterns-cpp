@@ -9,11 +9,11 @@
 #include <iostream>
 #include <string>
 
-#include "Creational/AbstractFactory/AfMain.hpp"
+#include "Creational/Singleton/Multiton.hpp"
 
 using namespace std;
 
 int main() {
-	afMain();
+	multitonMain();
 	return 0;
 }
