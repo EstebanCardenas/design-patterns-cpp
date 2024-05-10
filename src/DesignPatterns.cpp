@@ -9,11 +9,16 @@
 #include <iostream>
 #include <string>
 
-#include "Creational/Singleton/Multiton.hpp"
+#include "Structural/Decorator/FunctionalDecorator.hpp"
 
 using namespace std;
 
 int main() {
-	multitonMain();
+	string st = "Hello world";
+	auto pos = st.find("world");
+	if (pos != string::npos) {
+		cout << "found" << endl;
+	}
+
 	return 0;
 }
