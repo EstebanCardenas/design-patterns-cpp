@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "Behavioral/Iterator/BinaryTreeIterator.hpp"
+#include "Behavioral/Mediator/EventBroker.hpp"
 
 using namespace std;
 
 int main() {
-	return bTreeItMain();
+	return evtBrokerMain();
 }
