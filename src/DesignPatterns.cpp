@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "Behavioral/Mediator/EventBroker.hpp"
+#include "Behavioral/Observer/SignalsObservable.hpp"
 
 using namespace std;
 
 int main() {
-	return evtBrokerMain();
+	return ob2Main();
 }
