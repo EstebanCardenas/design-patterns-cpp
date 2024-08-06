@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "Behavioral/Observer/SignalsObservable.hpp"
+#include "Behavioral/State/HandmadeState.hpp"
 
 using namespace std;
 
 int main() {
-	return ob2Main();
+	return hmStateMain();
 }
