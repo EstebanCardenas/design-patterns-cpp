@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "Behavioral/State/HandmadeState.hpp"
+#include "Behavioral/Strategy/DynamicStrategy.hpp"
 
 using namespace std;
 
 int main() {
-	return hmStateMain();
+	return dStratMain();
 }
