@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "Behavioral/TemplateMethod/TemplateMethod.hpp"
+#include "Behavioral/Visitor/Variant.hpp"
 
 using namespace std;
 
 int main() {
-	return templateMethodMain();
+	return variantMain();
 }
