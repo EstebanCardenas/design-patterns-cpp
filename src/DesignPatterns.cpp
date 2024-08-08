@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "Behavioral/Strategy/DynamicStrategy.hpp"
+#include "Behavioral/TemplateMethod/TemplateMethod.hpp"
 
 using namespace std;
 
 int main() {
-	return dStratMain();
+	return templateMethodMain();
 }
